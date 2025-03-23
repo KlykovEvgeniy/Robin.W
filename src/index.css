@@ -1,13 +1,131 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sen:wght@400..800&family=Syne:wght@400..800&display=swap');
+
+@layer components{
+  .container{
+    max-width: 1440px;
+    margin: auto;
+    padding: 15px;
+  }
+
+  .label{
+    font-family: Sen;
+    font-weight: 400;
+    font-size: 117px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+  }
+
+  h1{
+    font-family: Sen;
+    font-weight: 700;
+    font-size: 78px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+  }
+
+  h2{
+    font-family: Sen;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+  }
+
+  h3{
+    font-family: Sen;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  }
+
+  h4{
+    font-family: Sen;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+  }
+
+  h5{
+    font-family: Sen;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+  }
+
+  .parOne{
+    font-family: Sen;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+  }
+
+  .parTwo{
+    font-family: Sen;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+  }
+
+  .overline{
+    font-family: Sen;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    text-transform: uppercase;
+  }
+
+  button{
+    font-family: Sen;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    text-transform: uppercase;
+  }
+
+  .link-nav{
+    font-family: Sen;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: white;
+    transition: .2s ease;
+
+    &:hover{
+      color: #5221E6;
+    }
+  }
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.bg{
+  background: linear-gradient(to left, #181823 0%, #181823 70%, #000000 70%, #000000 100%);
 }
+
+@media screen and (max-width: 768px) {
+  .bg{
+    background: #000000;
+  }
+}
+
