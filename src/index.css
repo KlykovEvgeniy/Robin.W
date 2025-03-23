@@ -120,12 +120,35 @@
 }
 
 .bg{
-  background: linear-gradient(to left, #181823 0%, #181823 70%, #000000 70%, #000000 100%);
+  background: linear-gradient(to left, #181823 0%, #181823 60%, #000000 60%, #000000 100%);
 }
 
-@media screen and (max-width: 768px) {
+.title{
+  font-family: Sen;
+  font-weight: 700;
+  font-size: 78px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+}
+
+
+@media screen and (max-width: 1280px){
   .bg{
     background: #000000;
+  }
+  .title{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+  }
+}
+
+@media screen and(max-width: 768px) {
+  .title{
+    font-size: 32px !important;
   }
 }
 
