@@ -1,9 +1,15 @@
-import { head } from '../images';
+import { headTablet, head, headMobile } from '../images';
 
 export default function Hero() {
   return (
     <div className="flex items-center md:flex-col ">
-      <img src={head} className="object-cover md:h-[288px] md:mb-3 w-[672px] h-full xl:w-1/3 md:w-full" alt="header image" />
+      <img
+        loading="lazy"
+        src={headMobile}
+        srcSet={`${headMobile} 640w, ${headTablet} 768w, ${head}, 1024w `}
+        className="object-cover md:h-[288px] md:mb-3 w-[672px] h-full xl:w-1/3 md:w-full"
+        alt="header image"
+      />
       <div>
         <div className="relative w-full">
           <h1 className="relative text-white right-10 md:text-[32px] xl:right-0 title mb-6 md:mb-3">

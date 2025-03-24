@@ -3,7 +3,7 @@ import { logo } from '../images';
 export default function Logo() {
   return (
     <a href="#">
-      <img src={logo} alt="Robin.W" role="Logo" />
+      <img className="w-full h-max" src={logo} alt="Robin.W" />
     </a>
   );
 }

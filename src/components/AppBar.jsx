@@ -1,6 +1,6 @@
 export default function AppBar() {
   return (
-    <nav className="h-full sm:z-20 sm:flex sm:absolute sm:top-0 sm:right-0 sm:w-full sm:items-center sm:h-[100vh] sm:justify-center sm:bg-black">
+    <nav className="h-full sm:z-20 sm:flex sm:absolute sm:top-0 sm:right-0 sm:w-full sm:items-center sm:h-[110vh] sm:justify-center sm:bg-black">
       <ul className="flex space-x-16 items-center sm:flex-col sm:space-x-0 sm:items-center xl:space-x-5">
         <li>
           <a className="link-nav" href="#">Experience</a>
