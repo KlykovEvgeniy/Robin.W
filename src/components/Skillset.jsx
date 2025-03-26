@@ -4,14 +4,14 @@ import SkillsetCard from '../reuse/SkillsetCard';
 export default function Skillset() {
   return (
     <section className="container flex justify-between items-start lg:flex-col mb-20 lg:mb-2">
-      <div className='mr-10 lg:mb-5'>
+      <div className='w-1/3 mr-10 sm:mr-0 lg:mb-5 sm:w-full'>
         <h2 className="text-white mb-5">Skilset</h2>
-        <p className="max-w-[368px] text-[#8491A0] parOne">
+        <p className="max-w-[368px] text-[#8491A0] parOne sm:max-w-[600px]">
           With skills in over 4 different fields of design, I am the perfect person to hire when it comes to a full
           fledged project. Whatever your needs are, I can pretty much take on any challenge.
         </p>
       </div>
-      <div className="grid grid-cols-2 lg:justify-between w-full gap-20 xl:gap-10 mt-3 sm:flex sm:flex-col">
+      <div className="w-2/3 grid grid-cols-2 lg:justify-between gap-20 xl:gap-10 mt-3 sm:flex sm:flex-col">
         <SkillsetCard
           title="Product Design"
           text="Working at Facebook has taught me a lot about how to understand users, solve problems and build great products."

@@ -21,6 +21,7 @@ import web2 from './rest-web.jpg';
 import web3 from './rester-web.jpg';
 import web4 from './restaurent-web.jpg';
 import plane from './plane.jpg';
+import dribble from './dribble-image.jpg';
 
 export {
   logo,
@@ -46,4 +47,5 @@ export {
   web3,
   web4,
   plane,
+  dribble,
 };

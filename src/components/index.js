@@ -9,5 +9,6 @@ import Phylosophy from './Philosophy';
 import Skillset from './Skillset';
 import Companies from './Companies';
 import Project from './Projects.';
+import Dribble from './Dribble';
 
-export { App, Header, Logo, AppBar, Hero, Main, Experience, Phylosophy, Skillset, Companies, Project };
+export { App, Header, Logo, AppBar, Hero, Main, Experience, Phylosophy, Skillset, Companies, Project, Dribble };

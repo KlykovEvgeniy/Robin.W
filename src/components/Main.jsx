@@ -4,6 +4,7 @@ import Skillset from './Skillset';
 import Companies from './Companies';
 import Project from './Projects.';
 import Instagram from './Instagram';
+import Dribble from './Dribble';
 
 export default function Main() {
   return (
@@ -14,6 +15,7 @@ export default function Main() {
       <Companies />
       <Project />
       <Instagram />
+      <Dribble />
     </main>
   );
 }
