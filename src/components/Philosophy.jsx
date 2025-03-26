@@ -4,7 +4,7 @@ import Button from '../reuse/Button';
 export default function Phylosophy() {
   return (
     <section className="container">
-      <div className="flex items-center justify-between bg-[#FFF3E4] lg:flex-col lg:p-10">
+      <div className="flex items-center justify-between bg-[#FFF3E4] mb-20 lg:mb-5 lg:flex-col lg:p-10">
         <div className="h-full w-1/2 flex items-center flex-col ">
           <div className="flex flex-col items-start pl-10 lg:pl-0">
             <h2 className="text-[#181823] text-left mb-5">Philosophy & values</h2>

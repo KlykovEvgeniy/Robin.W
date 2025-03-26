@@ -2,7 +2,7 @@ import ExperienceCard from '../reuse/ExperienceCard';
 
 export default function Experience() {
   return (
-    <section className="border-t-2 border-dashed border-[#8491A0] w-full px-5 py-20 md:border-none lg:py-2">
+    <section className="border-t-2 border-dashed border-[#8491A0] w-full px-5 pt-20 md:border-none lg:py-2">
       <div className="container">
         <p className="stoverline uppercase text-[#8491A0] mb-5">Work experience</p>
         <h2 className="max-w-[690px] text-white mb- md:text-[32px] md:max-w-[320px]">Companies I have worked for in the past</h2>
