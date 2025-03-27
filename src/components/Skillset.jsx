@@ -3,7 +3,7 @@ import SkillsetCard from '../reuse/SkillsetCard';
 
 export default function Skillset() {
   return (
-    <section className="container flex justify-between items-start lg:flex-col mb-20 lg:mb-2">
+    <section id='skill' className="container flex justify-between items-start lg:flex-col mb-20 lg:mb-2">
       <div className='w-1/3 mr-10 sm:mr-0 lg:mb-5 sm:w-full'>
         <h2 className="text-white mb-5">Skilset</h2>
         <p className="max-w-[368px] text-[#8491A0] parOne sm:max-w-[600px]">

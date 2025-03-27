@@ -22,6 +22,16 @@ import web3 from './rester-web.jpg';
 import web4 from './restaurent-web.jpg';
 import plane from './plane.jpg';
 import dribble from './dribble-image.jpg';
+import people1 from './people1.jpg';
+import people2 from './people2.jpg';
+import people3 from './people3.jpg';
+import italy1 from './italy1.jpg';
+import italy2 from './italy2.jpg';
+import italy3 from './italy3.jpg';
+import italy4 from './italy4.jpg';
+import twitter from './twitter.svg';
+import inc from './in.svg';
+import dribbleLogo from './dribble.svg';
 
 export {
   logo,
@@ -48,4 +58,14 @@ export {
   web4,
   plane,
   dribble,
+  people1,
+  people2,
+  people3,
+  italy1,
+  italy2,
+  italy3,
+  italy4,
+  twitter,
+  dribbleLogo,
+  inc,
 };

@@ -6,7 +6,7 @@ export default function Project() {
     'I worked with the guys at CBRE to redesign their entire website and mobile app fro both Android and iOS. This project lasted for 4 months and was a very challenging one.';
   const title = 'Restaurant Website Design';
   return (
-    <section className="container mb-20 lg:mb-2">
+    <section id='work' className="container mb-20 lg:mb-2">
       <div className="flex justify-between items-start lg:flex-col lg:items-center">
         <div>
           <div className='mb-10'>

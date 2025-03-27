@@ -5,6 +5,9 @@ import Companies from './Companies';
 import Project from './Projects.';
 import Instagram from './Instagram';
 import Dribble from './Dribble';
+import People from './People';
+import Photography from './Photography';
+import Contact from './Contact';
 
 export default function Main() {
   return (
@@ -16,6 +19,9 @@ export default function Main() {
       <Project />
       <Instagram />
       <Dribble />
+      <People />
+      <Photography />
+      <Contact />
     </main>
   );
 }
