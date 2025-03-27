@@ -27,7 +27,7 @@ export default function Header() {
     <header className="bg w-full p-5 mb-30 h-full pb-20 lg:pb-5 md:pb-1 sm:pb-0">
       <div className="container flex justify-between items-center mb-14 md:mb-5">
         <Logo />
-        {vis && <AppBar />}
+        {vis && <AppBar vis={setVis}/>}
         {width <= 640 && (
           <button className="z-50" onClick={toggleVis}>
             {vis ? <IoClose className="fill-[#C4C4C4] w-6 h-6" /> : <img className='w-6 h-6' src={hamburger} alt="hamburger button" />}
